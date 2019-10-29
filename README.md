@@ -1,5 +1,5 @@
 # avl_map
-## Container like dictionary implementation using AVL tree data structure
+## Container-like dictionary implementation using AVL tree data structure
 This is a lightweight library that implements a container-like dictionary via AVL tree data structure. It contains the basic functionality to find, insert and remove elements. 
 It also allows to iterate over the container using three types of iterators ```inorder_iterator```, ```preorder_iterator```, ```postorder_iterator``` and this is the main option of this library.
 The project also contains randomized stress tests that are intended to check the correctness of algorithms.
