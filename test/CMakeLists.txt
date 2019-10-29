@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.6)
 
 project(test)
 
-set(binary_name "randomized_stress_test${binary_ext}")
+set(binary_name "stress_test${binary_ext}")
 
 file(GLOB HEADER_FILES "*.h" "*.hpp")
 file(GLOB SOURCE_FILES "*.cpp")
