@@ -1,8 +1,8 @@
 # avl_map
 ## Container like dictionary implementation using AVL tree data structure
-This is a lightweight library which implements container-like dictionary via AVL tree data structure. It contains the basic functionality to find, insert and remove elements. 
-It also allows to iterate over the container using three type of iterators ```inorder_iterator```, ```preorder_iterator```, ```postorder_iterator``` and this is the main option of this library.
-The project also contains randomized stress tests which are intended to check the correctness of algorithms.
+This is a lightweight library that implements a container-like dictionary via AVL tree data structure. It contains the basic functionality to find, insert and remove elements. 
+It also allows it to iterate over the container using three types of iterators ```inorder_iterator```, ```preorder_iterator```, ```postorder_iterator``` and this is the main option of this library.
+The project also contains randomized stress tests that are intended to check the correctness of algorithms.
 
 ## Prerequisites
 To be able to test the updates one should be able to build and run the tests using the following tools:
@@ -11,13 +11,13 @@ For Linux:
 ```
 1. CMake
 2. Gnu Make
-2. valgrind
+2. Valgrind
 ```
 
 For Windows:
 ```
 1. CMake
-2. Visual Studio community (min version 2015)
+2. Visual Studio Community (min version 2015)
 3. Dr. Memory
 ```
 
@@ -32,16 +32,16 @@ sudo apt-get upgrade
 sudo apt-get install cmake3
 ```
 
-For Windows it could be downloaded from [official site](https://cmake.org/download/) either x86 or x64 version is suitable in regards with the target platform, also ```3.14.0-rc1``` is pretty stable.
-For installation it is required to just follow those steps which suggests the package install manager.
+For Windows, it could be downloaded from [official site](https://cmake.org/download/) either x86 or x64 version is suitable in regards to the target platform, also ```3.14.0-rc1``` is pretty stable.
+For installation, it is required to just follow those steps which suggest the package install manager.
 
 ### Memory leak detector install:
-For linux just install valgrind:
+For Linux just install Valgrind:
 ```
-sudo apt-get install valgrind
+sudo apt-get install Valgrind
 ```
 
-For Windows Dr. Memory could be downloaded from [official site](https://drmemory.org/) and installed just like in case of CMake.
+For Windows, Dr. Memory could be downloaded from [official site](https://drmemory.org/) and installed just like in the case of CMake.
 
 ## Building
 For Linux:
@@ -68,10 +68,10 @@ For Windows:
 2. cd <project root directory>
 3. ./build.bat -l <Number of iterations>
 ```
-After build compleation the *.sln file should be opened and compiled via Visual Studio.
+After build completion, the *.sln file should be opened and compiled via Visual Studio.
 
 ## Running the tests
-Once the build compleates successfully it creates an executable file and puts in into <project root directory>/test/bin area.
+Once the build completes successfully it creates an executable file and puts in into <project root directory>/test/bin area.
 The executable name is ```stress_test```. To run this file just call it like:
 ```
 $ <project root directory>/test/bin/stress_test
