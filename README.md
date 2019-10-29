@@ -32,7 +32,7 @@ sudo apt-get upgrade
 sudo apt-get install cmake3
 ```
 
-For Windows, it could be downloaded from [official site](https://cmake.org/download/) either x86 or x64 version is suitable in regards to the target platform, also ```3.14.0-rc1``` is pretty stable.
+For Windows, it could be downloaded from [official site](https://cmake.org/download/) either x86 or x64 version is suitable in regards to the target platform, also ```3.14.0-rc1``` is pretty stable version.
 For installation, it is required to just follow those steps which suggest the package install manager.
 
 ### Memory leak detector install:
