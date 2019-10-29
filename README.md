@@ -35,7 +35,7 @@ sudo apt-get install cmake3
 For Windows it could be downloaded from [official site](https://cmake.org/download/) either x86 or x64 version is suitable in regards with the target platform, also ```3.14.0-rc1``` is pretty stable.
 For installation it is required to just follow those steps which suggests the package install manager.
 
-###Memory leak detector install:
+### Memory leak detector install:
 For linux just install valgrind:
 ```
 sudo apt-get install valgrind
@@ -70,7 +70,7 @@ For Windows:
 ```
 After build compleation the *.sln file should be opened and compiled via Visual Studio.
 
-##Running the tests
+## Running the tests
 Once the build compleates successfully it creates an executable file and puts in into <project root directory>/test/bin area.
 The executable name is ```stress_test```. To run this file just call it like:
 ```
