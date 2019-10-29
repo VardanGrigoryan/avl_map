@@ -71,7 +71,7 @@ For Windows:
 After build completion, the *.sln file should be opened and compiled via Visual Studio.
 
 ## Running the tests
-Once the build completes successfully it creates an executable file and puts in into <project root directory>/test/bin area.
+Once the build completes successfully it creates an executable file and puts it into <project root directory>/test/bin area.
 The executable name is ```stress_test```. To run this file just call it like:
 ```
 $ <project root directory>/test/bin/stress_test
