@@ -76,5 +76,8 @@ The executable name is ```stress_test```. To run this file just call it like:
 ```
 $ <project root directory>/test/bin/stress_test
 ```
+## Contributing
+This library is free software; you can redistribute it and/or modify it as it published by the author.
+
 ## Authors
 * Vardan Grigoryan
