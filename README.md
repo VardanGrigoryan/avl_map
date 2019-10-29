@@ -46,7 +46,7 @@ For Windows Dr. Memory could be downloaded from [official site](https://drmemory
 ## Building
 For Linux:
 1. Go to the project root directory where it is downloaded or cloned
-2. run build.sh using argument list which is specific for you platform
+2. run build.sh using argument list which is specific for your platform
 
 Below is given the usage of build.sh script:
 ```
