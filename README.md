@@ -5,7 +5,6 @@ It also allows to iterate over the container using three type of iterators ```in
 The project also contains randomized stress tests which are intended to check the correctness of algorithms.
 
 ## Prerequisites
-The basic part of this project is just one header file ```map.hpp```  which contains whole the functionality. 
 To be able to test the updates one should be able to build and run the tests using the following tools:
 
 For Linux:
