@@ -1,6 +1,6 @@
 // Map implementation -*- C++ -*-
 
-// Copyright (C) 2019 
+// Date: 2019.29.10.
 // Author: Vardan Grigoryan. 
 //
 // This library is free software; you can redistribute it and/or 
