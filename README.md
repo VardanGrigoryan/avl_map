@@ -22,7 +22,7 @@ For Windows:
 ```
 
 ## Installing
-###CMake install:
+### CMake install:
 For Linux use below given commands:
 ```
 sudo apt-get update
